@@ -142,6 +142,11 @@ body {
 }
 
 @media (max-width: 550px) {
+
+    .container{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
     .contents {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
