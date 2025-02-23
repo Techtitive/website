@@ -157,6 +157,10 @@ body {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
+    .container-wrapper{
+        margin-bottom: 8%;
+    }
+
     #textcg {
         font-size: 20px;
     }
