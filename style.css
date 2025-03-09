@@ -6,6 +6,17 @@
     text-decoration: none;
 }
 
+  *{
+    user-select: none;
+  }
+  
+  *::selection{
+    display: none;
+    visibility: hidden;
+    background-color: transparent;
+  }
+  
+
 .title {
     font-family: "Delius", serif;
     color: #ffffff;
